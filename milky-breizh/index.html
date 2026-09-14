@@ -1,43 +1,18 @@
-<!DOCTYPE html>
-<html lang="fr"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Milky Breizh</title>
-<style>
-:root{--bg:#F2F7F6;--ink:#14201E;--muted:#4F635F;--acc:#1F6F6A;--acc2:#C4A46A}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Georgia,serif;background:var(--bg);color:var(--ink);line-height:1.5}
-.badge{position:fixed;top:10px;right:10px;background:#111;color:#fff;font:650 10px system-ui;padding:6px 10px;border-radius:999px}
-.wrap{width:min(920px,calc(100% - 2rem));margin:0 auto;padding:2.5rem 0}
-.brand{font-size:1.2rem;font-weight:700;margin-bottom:2rem}
-.brand span{color:var(--acc)}
-h1{font-size:clamp(1.8rem,5vw,2.8rem);letter-spacing:-.03em;margin:.4rem 0 1rem}
-.lede{font-family:system-ui,sans-serif;color:var(--muted);max-width:36rem;margin-bottom:1.4rem}
-.kicker{font:700 .7rem system-ui;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}
-.btn{display:inline-block;padding:.85rem 1.3rem;border-radius:999px;font:650 .95rem system-ui;text-decoration:none;margin:.25rem .4rem .25rem 0}
-.btn-p{background:var(--acc);color:#fff}
-.btn-g{border:1px solid color-mix(in srgb,var(--ink) 15%,transparent);color:var(--ink);background:#fff9}
-.card{background:#fff;border:1px solid color-mix(in srgb,var(--ink) 9%,transparent);border-radius:18px;padding:1.1rem;margin:.6rem 0}
-.card h3{font-size:1.05rem;margin-bottom:.35rem}
-.card p{font-family:system-ui,sans-serif;font-size:.92rem;color:var(--muted)}
-.contact{background:linear-gradient(145deg,var(--acc),color-mix(in srgb,var(--acc) 65%,#000));color:#fff;border-radius:22px;padding:1.6rem;margin-top:2rem}
-.contact a{color:#fff}
-.note{font-family:system-ui,sans-serif;font-size:.82rem;color:var(--muted);border-left:3px solid var(--acc2);padding-left:.8rem;margin:1rem 0}
-footer{font-family:system-ui,sans-serif;font-size:.8rem;color:var(--muted);padding:2rem 0;border-top:1px solid color-mix(in srgb,var(--ink) 9%,transparent);margin-top:2rem}
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Milky Breizh</title>
+<style>body{font-family:Roboto,sans-serif;background:#F2F7F6;color:#14201E;margin:0}
+.badge{position:fixed;top:10px;right:10px;background:#111;color:#fff;padding:6px 10px;border-radius:999px;font:700 10px sans-serif}
+.bar{position:sticky;top:0;background:#fff;padding:12px 20px;box-shadow:0 1px 3px rgba(0,0,0,.1);display:flex;justify-content:space-between}
+.tonal{margin:20px;padding:20px;background:#e8f2f1;border-radius:28px}
+h1{letter-spacing:-.03em}a.btn{display:inline-block;background:#1F6F6A;color:#fff;padding:12px 20px;border-radius:999px;text-decoration:none}
+.card{background:#fff;border-radius:16px;padding:16px;margin:12px 20px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
 </style></head><body>
 <div class="badge">MOCKUP — proposition</div>
-<div class="wrap">
-<div class="brand">Milky <span>Breizh</span></div>
-<div class="kicker">Fromages et produits laitiers bio · Pancé</div>
-<h1>Milky Breizh</h1>
-<p class="lede">Proposition de vitrine simple — horaires, contact, commande. Contenu non officiel.</p>
-<a class="btn btn-p" href="mailto:fermedelaroche.35@gmail.com">Écrire</a>
-<a class="btn btn-g" href="tel:0769769289">Appeler</a>
-<div class="card"><h3>Activité</h3><p>Fromages et produits laitiers bio (Ferme de la Roche)</p></div>
-<div class="card"><h3>Coordonnées</h3><p>La Roche, 35320 Pancé<br>07 69 76 92 89<br><a href="mailto:fermedelaroche.35@gmail.com">fermedelaroche.35@gmail.com</a></p></div>
-<p class="note">Producteurs laitiers bio à Pancé (Ferme de la Roche), vente vendredi + dépôts locaux (guide BPL 2023) — [À CONFIRMER] pour détails non vérifiés.</p>
-<div class="contact"><h2 style="font-size:1.4rem;margin-bottom:.6rem">Contact</h2>
-<p style="font-family:system-ui;margin-bottom:.8rem">La Roche, 35320 Pancé</p>
-<p><a href="tel:0769769289">07 69 76 92 89</a></p>
-<p><a href="mailto:fermedelaroche.35@gmail.com">fermedelaroche.35@gmail.com</a></p></div>
-<footer>Milky Breizh · proposition visuelle non officielle · batch 2026-09-12</footer>
-</div></body></html>
+<div class="bar"><strong>Milky <span style="color:#1F6F6A">Breizh</span></strong><a class="btn" href="tel:+33769769289">Contact</a></div>
+<div class="tonal"><div style="color:#1F6F6A;font:700 11px sans-serif;letter-spacing:.1em;text-transform:uppercase">Laiterie · Pancé</div>
+<h1>Le lait de Pancé, en clair</h1>
+<p>Vitrine Material v3 — vente vendredi + dépôts. Contenu non officiel.</p>
+<a class="btn" href="tel:+33769769289">Appeler</a></div>
+<div class="card"><h3>Commander &amp; retirer</h3><p>Créneaux vendredi — pas de e-commerce inventé. [EXEMPLE]</p></div>
+<div class="card"><h3>Où nous trouver</h3><p>Ferme de la Roche · dépôts locaux (guide BPL)</p></div>
+<footer style="padding:20px;color:#4F635F;font-size:13px">Milky Breizh · Material v3 · proposition non officielle</footer>
+</body></html>
